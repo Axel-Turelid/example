@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Axel-Turelid.github.io/example",
+  "homepage": "https://axel-turelid.github.io/example",
   "name": "client",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build -r https://github.com/Axel-Turelid/example.git",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
