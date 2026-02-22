@@ -1,0 +1,34 @@
+body{
+  background-color: dimgrey;
+  text-align: center;
+  justify-content: center;
+  font-family: Inter;
+}
+
+form{
+  display:grid;
+}
+
+input{
+  font-family: inherit;
+}
+
+button{
+  font-family: inherit;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  height: 70vh;
+  flex-direction: column;
+}
+
+a, button{
+  cursor:pointer;
+}
